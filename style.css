@@ -1,0 +1,368 @@
+.navbar{
+  
+
+
+   background-color: #d50000 !important;
+  
+  
+ 
+}
+
+.nav-link{
+   color: #ffffff !important;
+
+}
+
+
+/* brand logos */
+
+.col-full{
+  
+   margin-top: 20px;
+}
+
+.img-fluid{
+   max-width: 100%;
+   height: auto;
+}
+
+/* fact */
+/* 
+.fact{
+background-image:   url('images/man-in-blue-.jpg');
+width: 600px;
+height: 500px;
+} */
+
+
+
+
+
+.fact{
+background-size: cover;
+margin-top: 30px;
+height: 600px;
+width: auto;
+opacity: 100%;
+flex-wrap: wrap;
+display: block;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+
+.fact1{
+
+
+text-align: center;
+padding-top: 200px;
+padding-bottom: 50px;
+
+
+
+}
+@media screen and (max-width: 340px) {
+   .row {
+     flex-direction: column;
+   }
+ }
+
+
+
+   .row {
+      display: flex !important;
+      flex-wrap: wrap;
+      justify-content: space-around !important;
+   
+    
+   }
+
+
+
+
+.plus{
+  font-size: 40px;
+  font-weight: bold;
+  color: #d50000;
+   
+}
+
+
+
+/*=====================
+ round ceo
+========================== */
+
+html {
+   box-sizing: border-box;
+ }
+ 
+ *, *:before, *:after {
+   box-sizing: inherit;
+ }
+ 
+ .column {
+   float: left;
+   width: 33.3%;
+   margin-bottom: 16px;
+   padding: 0 8px;
+ }
+ 
+ @media screen and (max-width: 650px) {
+   .column {
+     width: 100%;
+     display: block;
+   }
+ }
+ 
+ .card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ }
+ 
+ .container {
+   padding: 0 16px;
+ }
+ 
+ .container::after, .row::after {
+   content: "";
+   clear: both;
+   display: table;
+ }
+ 
+ .title {
+   color: grey;
+ }
+
+ .ceo{
+    color: #d50000;
+ }
+
+ .ceo1{
+    color: #d50000;
+    text-align: center;
+    margin-top: 90px;
+
+    font-weight: bold;
+ }
+ 
+ .button {
+   border: none;
+   outline: 0;
+   display: inline-block;
+   padding: 8px;
+   color: white;
+   background-color: #d50000;
+   text-align: center;
+   cursor: pointer;
+   width: 100%;
+ }
+ 
+ .button:hover {
+   background-color: #555;
+ }
+
+
+/* box */
+
+
+.fa-paper-plane,.fa-history,.fa-comment,.fa-users{
+   font-size: 25px !important;
+   align-items: center !important;
+   margin-right: 10px !important;
+   color: #d50000;
+
+}
+
+h6{
+   font-weight: bold  !important;
+   color: #d50000;
+
+}
+
+.box1,.box2,.box3,.box4{
+   display: flex;
+   background-color: #fafafa;
+   cursor: pointer;
+   box-shadow: 3px 4px 5px grey;
+   width: 235px;
+   align-items: center;
+   height: 130px;
+   justify-content: center !important;
+   margin-top: 15px;
+   
+    }
+
+
+
+    .mainbox{
+       margin-top: 30px !important;
+       display: flex;
+       padding-top: 30px;
+       flex-direction: row;
+       justify-content: space-around;
+       flex-wrap: wrap;
+     
+      
+    }
+
+
+    
+
+
+
+/* stay connected */
+
+
+
+.contact{
+   background-color: #212121;
+   margin-bottom:-30px;
+   margin-top: 30px;
+ flex-wrap: wrap;
+ justify-content: space-between;
+
+
+}
+.connect{
+  
+  
+   font-weight: bold;
+}
+
+.lasticon{
+   display: flex;
+ justify-content:space-evenly;
+ font-family: 'Lobster', cursive;
+font-size: 30px;
+list-style: none;
+margin-block-end: 1em;
+color: #ffffff;
+}
+
+
+
+.fa-facebook-square,.fa-twitter-square,.fa-instagram,.fa-whatsapp{
+   color: #ffffff;
+}
+
+
+/* 
+.connect{
+ 
+ color: #ffffff;
+ font-family: 'Lobster', cursive;
+
+justify-content: space-evenly;
+
+}
+
+.lasticon{
+ justify-items: auto;
+   display: flex;
+font-size: 30px;
+list-style: none;
+margin-block-end: 1em;
+color: #ffffff;
+
+
+
+}
+
+h4{
+   justify-content: center;
+   text-align: center;
+   padding-top: 10px;
+   
+ 
+} */
+
+/* last line */
+
+.lastbox{
+   background-color:#fafafa ;
+   width: 100% ;
+   height:350px;
+flex-wrap: wrap;
+text-align: center;
+justify-content: center;
+padding-top: 20px;
+
+
+ 
+
+
+/* margin: 30px auto;
+padding: 10px auto 10px auto; */
+/* margin-left: -350px; */
+   
+}
+
+
+
+
+
+
+.fa-volume-control-phone,.fa-envelope{
+   width: 13px !important;
+   height: 13px !important;
+   /* margin-left: 10px; */
+}
+
+
+/* .usefull{
+   margin-top: -200px;
+   display: flex;
+   margin: -250px 500px 0px 500px;
+   
+} */
+
+    /* Footer */
+
+div.footer{
+   background-color: #d50000  ;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: medium;
+  padding: 15px 3px;
+color:#ffffff;
+text-align: left; 
+justify-content: center;
+width: auto;
+height: auto;
+
+
+}
+
+
+
+/* footer{
+  display: flex-start;
+  justify-content: start;
+  align-items: flex-start;
+  text-align: left;
+  
+} */
+
+/* back to top */
+
+
+#myBtn {
+   display: flex;
+   position: fixed;
+   bottom: 20px;
+   right: 30px;
+   z-index:99;
+   font-size: 18px;
+   border: none;
+   outline: none;
+   background-color: #212121;
+   color: white;
+   cursor: pointer;
+   padding: 15px;
+   border-radius: 25px;
+ }
+ 
+ #myBtn:hover {
+   background-color: #d50000 ;
+    }
